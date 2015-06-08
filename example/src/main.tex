@@ -1,0 +1,86 @@
+\documentclass[12pt, francais]{beamer}
+%\usepackage[size=a4,scale=0.7,debug]{beamerposter}
+\usepackage[francais]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{amsmath,amsfonts,amssymb}
+
+\usepackage{booktabs}                   % just makes the table prettier
+\usepackage{listings}                   % allow to include source code
+
+\usepackage{color}                      % Enable color using
+\usepackage{graphicx}     		     	% More option in included images
+\usepackage{colortbl}
+\usepackage{xcolor}
+
+
+
+\DeclareGraphicsRule{*}{mps}{*}{}
+
+\usetheme{minimal}
+\usecolortheme{crane}
+\setbeamertemplate{navigation symbols}{}
+
+
+\title{The Minimal Theme}
+\author{Djambazian Nicolas}
+
+
+\begin{document}
+
+\maketitle
+
+\part{Part One}
+\framepartpage
+
+\begin{frame}
+	\frametitle{Table of content}
+	\tableofcontents[hideallsubsections]
+\end{frame}
+
+\section{First Section }
+
+\begin{frame}{Frame Title}
+	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+\end{frame}
+
+
+\section{Second Section }
+
+\begin{frame}
+	\catchline{Lorem ipsum dolor}
+\end{frame}
+
+
+\begin{frame}
+	\catchline{consetetur sadipscing elitr sed diam nonumy ?}
+	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+\end{frame}
+
+
+
+\begin{frame}{Frame Title}
+	\catchline{sea takimata sanctus est}
+\end{frame}
+
+
+
+\begin{frame}
+	\catchline{ no sea takimata sanctus}
+	  \begin{itemize}
+	    \centering
+	    \item item1
+	    \item item2
+	    \item item3
+	    \item item4
+	    \item item5
+	  \end{itemize}
+\end{frame}
+
+
+\plainInverted{Plain inverted !!}
+\plain{Plain not inverted !!}
+
+
+\end{document}
